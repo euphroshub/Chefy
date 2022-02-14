@@ -53,7 +53,7 @@ export const loadSearchResults =  async function(query) {
             }
         });
 
-        console.log(state.search.results);
+        state.search.page = 1;
 
     } catch (err) {
         console.error(`${err}`);
@@ -69,4 +69,13 @@ export const getSearchResultsPage = function(page = state.search.page) {
     const end = page * state.search.resultsPerPage;
 
     return state.search.results.slice(start, end);
+}
+
+// Update servings
+export const updateServings = function(newServings) {
+    state.recipe.ingredients.forEach(ing => {
+        ing.quantity = ing.quantity * newServings / state.recipe.servings;
+    });
+
+    state.recipe.servings = newServings;
 }
