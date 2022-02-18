@@ -4,7 +4,7 @@ import { Fraction } from 'fractional';
 
 class RecipeView extends View {
     _parentElement = document.querySelector('.recipe');
-    _errorMessage = 'We could not find that recipe. Please try another one!';
+    _errorMessage = 'We could not find that recipe. Please try another one.';
     _message = '';
 
     addHandlerRender(handler) {
@@ -13,10 +13,10 @@ class RecipeView extends View {
 
     addHandlerUpdateServings(handler) {
         this._parentElement.addEventListener('click', function (e) {
-        const btn = e.target.closest('.btn--update-servings');
-        if (!btn) return;
-        const { updateTo } = btn.dataset;
-        if (+updateTo > 0) handler(+updateTo);
+            const btn = e.target.closest('.btn--update-servings');
+            if (!btn) return;
+            const { updateTo } = btn.dataset;
+            if (+updateTo > 0) handler(+updateTo);
         });
     }
 
