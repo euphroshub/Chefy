@@ -9,4 +9,6 @@ It uses the following API: https://forkify-api.herokuapp.com/v2
 
 Set-up: npm install  
 Development: npm start  
-Building: npm run build
+Building: npm run build  
+
+The app is not mobile friendly for now, Work in progress for that part.

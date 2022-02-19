@@ -1,5 +1,5 @@
 {
-  "name": "forkify",
+  "name": "chefy",
   "version": "1.0.0",
   "description": "Recipe application",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/euphroshub/Forkify.git"
+    "url": "git+https://github.com/euphroshub/Chefy.git"
   },
   "author": "euphros",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/euphroshub/Forkify/issues"
+    "url": "https://github.com/euphroshub/Chefy/issues"
   },
-  "homepage": "https://github.com/euphroshub/Forkify#readme",
+  "homepage": "https://github.com/euphroshub/Chefy#readme",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.3.2",
     "@parcel/packager-xml": "^2.3.2",
