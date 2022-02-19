@@ -1,5 +1,8 @@
 ## Chefy - a cooking recipe application
 
+You can check out the app at this URL:  
+https://chefy-euphros.netlify.app/
+
 A JavaScript application to get cooking recipe, or add your own recipe in local storage. 
 
 It uses the following API: https://forkify-api.herokuapp.com/v2
