@@ -13,7 +13,7 @@
 }
 
 .search {
-  background-color: darkgray;
+  background-color: rgb(56, 53, 53);
   border-radius: 10rem;
   display: flex;
   align-items: center;
@@ -105,13 +105,13 @@
 }
 
 .bookmarks {
+  background-color: $color-grey-light-1;
   padding: 1rem 0;
   position: absolute;
   // right: 0;
   right: -2.5rem;
   z-index: 10;
   width: 40rem;
-  background-color: #fff;
   box-shadow: 0 0.8rem 5rem 2rem rgba($color-grey-dark-1, 0.1);
 
   visibility: hidden;
